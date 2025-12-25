@@ -4,7 +4,6 @@ import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.aspectj.weaver.Position;
 
 import java.math.BigDecimal;
 
@@ -14,7 +13,7 @@ import java.math.BigDecimal;
 
 @Entity
 @Table(name = "Alimentos")
-public class Alimentos {
+public class AlimentosModelo {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
